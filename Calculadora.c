@@ -19,6 +19,7 @@ float multiplicacion(float a, float b) {
 
 float resta(float a, float b) {
     return a - b;
+
 }
 
 int main() {
