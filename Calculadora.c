@@ -2,7 +2,12 @@
 #include <stdio.h>
 
 float division(float a, float b) {
-    return a / b;
+    if (b != 0) {
+        return a / b;
+    } else {
+        printf("Error: No se puede dividir entre cero.\n");
+        return 0;
+    }
 }
 
 int main() {
@@ -51,5 +56,6 @@ int main() {
 	} while (opcion != 5);
 	return 0;
 }
+
 
 
