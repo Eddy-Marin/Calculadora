@@ -1,6 +1,14 @@
 
 #include <stdio.h>
 
+float division(float a, float b) {
+    if (b != 0) {
+        return a / b;
+    } else {
+        printf("Error: No se puede dividir entre cero.\n");
+        return 0;
+    }
+
 float suma(float a, float b) {
 	return a + b;
 }
@@ -59,5 +67,6 @@ int main() {
 	} while (opcion != 5);
 	return 0;
 }
+
 
 
