@@ -1,6 +1,9 @@
 
 #include <stdio.h>
 
+float multiplicar(float a, float b) {
+    return a * b;
+}
 
 int main() {
 	int opcion;
@@ -48,3 +51,4 @@ int main() {
 	} while (opcion != 5);
 	return 0;
 }
+
