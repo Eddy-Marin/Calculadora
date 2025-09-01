@@ -1,8 +1,16 @@
 
 #include <stdio.h>
 
-float multiplicar(float a, float b) {
+float suma(float a, float b) {
+	return a + b;
+}
+
+float multiplicacion(float a, float b) {
     return a * b;
+}
+
+float resta(float a, float b) {
+    return a - b;
 }
 
 int main() {
@@ -51,4 +59,5 @@ int main() {
 	} while (opcion != 5);
 	return 0;
 }
+
 
