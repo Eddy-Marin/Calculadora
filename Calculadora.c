@@ -8,6 +8,18 @@ float division(float a, float b) {
         printf("Error: No se puede dividir entre cero.\n");
         return 0;
     }
+
+float suma(float a, float b) {
+	return a + b;
+}
+
+float multiplicacion(float a, float b) {
+    return a * b;
+}
+
+float resta(float a, float b) {
+    return a - b;
+
 }
 
 int main() {
